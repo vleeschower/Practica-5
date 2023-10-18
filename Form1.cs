@@ -9,11 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Text.RegularExpressions;
+using MySql.Data.MySqlClient;  //referencias necesarias para trabajar con localhost y xampp
 
 namespace Practica_5
 {
     public partial class Form1 : Form
     {
+        //datos de conexion a mysql (xampp)
+        //string conexionSQL="Server=localhost;Port=3306;Database=programacion;"
+        //metodo para insertar registros
+
         public Form1()
         {
             InitializeComponent();
