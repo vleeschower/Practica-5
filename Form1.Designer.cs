@@ -85,45 +85,57 @@ namespace Practica_5
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(85, 42);
+            this.lblNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombre.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.ForeColor = System.Drawing.Color.PaleGreen;
+            this.lblNombre.Location = new System.Drawing.Point(80, 32);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.Size = new System.Drawing.Size(74, 23);
             this.lblNombre.TabIndex = 5;
             this.lblNombre.Text = "Nombre";
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(85, 86);
+            this.lblApellido.BackColor = System.Drawing.Color.Transparent;
+            this.lblApellido.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.ForeColor = System.Drawing.Color.PaleGreen;
+            this.lblApellido.Location = new System.Drawing.Point(80, 76);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(44, 13);
+            this.lblApellido.Size = new System.Drawing.Size(76, 23);
             this.lblApellido.TabIndex = 6;
             this.lblApellido.Text = "Apellido";
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(83, 135);
+            this.lblTelefono.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.ForeColor = System.Drawing.Color.PaleGreen;
+            this.lblTelefono.Location = new System.Drawing.Point(82, 128);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefono.Size = new System.Drawing.Size(79, 23);
             this.lblTelefono.TabIndex = 7;
             this.lblTelefono.Text = "Telefono";
             // 
             // lblEstatura
             // 
             this.lblEstatura.AutoSize = true;
-            this.lblEstatura.Location = new System.Drawing.Point(83, 177);
+            this.lblEstatura.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstatura.ForeColor = System.Drawing.Color.PaleGreen;
+            this.lblEstatura.Location = new System.Drawing.Point(82, 171);
             this.lblEstatura.Name = "lblEstatura";
-            this.lblEstatura.Size = new System.Drawing.Size(46, 13);
+            this.lblEstatura.Size = new System.Drawing.Size(79, 23);
             this.lblEstatura.TabIndex = 8;
             this.lblEstatura.Text = "Estatura";
             // 
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
-            this.lblEdad.Location = new System.Drawing.Point(88, 222);
+            this.lblEdad.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdad.ForeColor = System.Drawing.Color.PaleGreen;
+            this.lblEdad.Location = new System.Drawing.Point(82, 219);
             this.lblEdad.Name = "lblEdad";
-            this.lblEdad.Size = new System.Drawing.Size(32, 13);
+            this.lblEdad.Size = new System.Drawing.Size(52, 23);
             this.lblEdad.TabIndex = 9;
             this.lblEdad.Text = "Edad";
             // 
@@ -132,7 +144,7 @@ namespace Practica_5
             this.rbHombre.AutoSize = true;
             this.rbHombre.Location = new System.Drawing.Point(6, 28);
             this.rbHombre.Name = "rbHombre";
-            this.rbHombre.Size = new System.Drawing.Size(62, 17);
+            this.rbHombre.Size = new System.Drawing.Size(93, 27);
             this.rbHombre.TabIndex = 11;
             this.rbHombre.TabStop = true;
             this.rbHombre.Text = "Hombre";
@@ -143,7 +155,7 @@ namespace Practica_5
             this.rbMujer.AutoSize = true;
             this.rbMujer.Location = new System.Drawing.Point(124, 28);
             this.rbMujer.Name = "rbMujer";
-            this.rbMujer.Size = new System.Drawing.Size(51, 17);
+            this.rbMujer.Size = new System.Drawing.Size(75, 27);
             this.rbMujer.TabIndex = 12;
             this.rbMujer.TabStop = true;
             this.rbMujer.Text = "Mujer";
@@ -173,7 +185,9 @@ namespace Practica_5
             // 
             this.groupBox1.Controls.Add(this.rbHombre);
             this.groupBox1.Controls.Add(this.rbMujer);
-            this.groupBox1.Location = new System.Drawing.Point(86, 266);
+            this.groupBox1.Font = new System.Drawing.Font("Bodoni MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.PaleGreen;
+            this.groupBox1.Location = new System.Drawing.Point(108, 270);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 60);
             this.groupBox1.TabIndex = 15;
@@ -184,6 +198,7 @@ namespace Practica_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(417, 456);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancelar);
@@ -198,6 +213,7 @@ namespace Practica_5
             this.Controls.Add(this.tbTelefono);
             this.Controls.Add(this.tbApellido);
             this.Controls.Add(this.tbNombre);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
